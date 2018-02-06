@@ -14,6 +14,8 @@
 		0BB482B02029A17300FD2B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB482AE2029A17300FD2B48 /* LaunchScreen.storyboard */; };
 		0BB482BB2029A17300FD2B48 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB482BA2029A17300FD2B48 /* MemoPadTests.swift */; };
 		0BB482C62029A17300FD2B48 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB482C52029A17300FD2B48 /* MemoPadUITests.swift */; };
+		0BB482D42029A20600FD2B48 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB482D32029A20600FD2B48 /* MemoViewController.swift */; };
+		0BB482D62029C88B00FD2B48 /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB482D52029C88A00FD2B48 /* memo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0BB482C12029A17300FD2B48 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB482C52029A17300FD2B48 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		0BB482C72029A17300FD2B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB482D32029A20600FD2B48 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		0BB482D52029C88A00FD2B48 /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		0BB482A42029A17300FD2B48 /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				0BB482D32029A20600FD2B48 /* MemoViewController.swift */,
 				0BB482A52029A17300FD2B48 /* AppDelegate.swift */,
 				0BB482A72029A17300FD2B48 /* ViewController.swift */,
 				0BB482A92029A17300FD2B48 /* Main.storyboard */,
 				0BB482AC2029A17300FD2B48 /* Assets.xcassets */,
 				0BB482AE2029A17300FD2B48 /* LaunchScreen.storyboard */,
 				0BB482B12029A17300FD2B48 /* Info.plist */,
+				0BB482D52029C88A00FD2B48 /* memo.png */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB482B02029A17300FD2B48 /* LaunchScreen.storyboard in Resources */,
+				0BB482D62029C88B00FD2B48 /* memo.png in Resources */,
 				0BB482AD2029A17300FD2B48 /* Assets.xcassets in Resources */,
 				0BB482AB2029A17300FD2B48 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				0BB482A82029A17300FD2B48 /* ViewController.swift in Sources */,
 				0BB482A62029A17300FD2B48 /* AppDelegate.swift in Sources */,
+				0BB482D42029A20600FD2B48 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
